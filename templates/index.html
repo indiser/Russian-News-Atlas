@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Russia News Atlas</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/apple-touch-icon.png">
+    <link rel="manifest" href="/static/site.webmanifest">
+    <style>
+        body { margin: 0; padding: 0; font-family: 'Segoe UI', sans-serif; }
+        #map { height: 100vh; width: 100%; background: #A3C6D4; }
+
+        /* Popup */
+        .leaflet-popup-content-wrapper {
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+            padding: 0;
+            overflow: hidden;
+        }
+        .leaflet-popup-content { margin: 0; width: 300px !important; }
+
+        .news-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 10px;
+            padding: 12px 15px;
+            /* background + text color set per marker in JS */
+        }
+        .news-title { min-width: 0; }
+        .news-city {
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 1.2;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+        .news-region {
+            font-size: 11px;
+            font-weight: 400;
+            opacity: 0.85;
+            margin-top: 2px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+        .news-count {
+            flex: none;
+            background: rgba(255,255,255,0.25);
+            padding: 3px 10px;
+            border-radius: 12px;
+            font-size: 11px;
+            font-weight: 600;
+            white-space: nowrap;
+        }
+        .news-list {
+            padding: 12px 15px;
+            max-height: 250px;
+            overflow-y: auto;
+            font-size: 13px;
+            line-height: 1.5;
+            color: #333;
+            background: white;
+        }
+        .news-item {
+            position: relative;
+            padding-left: 15px;
+            padding-bottom: 8px;
+            margin-bottom: 8px;
+            border-bottom: 1px solid #f0f0f0;
+            word-wrap: break-word;
+        }
+        .news-item:last-of-type { border-bottom: none; margin-bottom: 0; }
+        .news-item::before {
+            content: "\27A4";
+            position: absolute;
+            left: 0;
+            color: #555;
+            font-size: 10px;
+            top: 3px;
+        }
+        .news-more { font-size: 12px; color: #888; padding-top: 6px; }
+
+        /* Legend */
+        .info.legend {
+            background: white;
+            padding: 10px 15px;
+            line-height: 20px;
+            color: #555;
+            border-radius: 5px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+            font-size: 12px;
+        }
+        .info.legend i {
+            width: 18px;
+            height: 18px;
+            float: left;
+            margin-right: 8px;
+            opacity: 0.8;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div id="timestamp-badge" class="ignore" style="
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        z-index: 1000;
+        background: rgba(255, 255, 255, 0.95);
+        padding: 8px 15px;
+        border-radius: 6px;
+        font-size: 13px;
+        font-weight: 600;
+        color: #333;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        border-left: 4px solid #E31A1C;
+    ">
+        Data Status: Fetching...
+    </div>
+
+    <div id="map"></div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet.heat@0.2.0/dist/leaflet-heat.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/translate.js/3.2.0/translate.js" integrity="sha512-QsosKOD7h9H45i7Q6Dktc5Bj4YrCJpLOD8TtRdv9v/WnFZ0hprCoYMd05zGWc4D7MYh4VCp2tjQ9PwS8gcRcGg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+        // ---------- helpers (pure, no DOM) ----------
+        // <helpers>
+        function escapeHtml(s) {
+            return String(s)
+                .replace(/&/g, '&amp;').replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+        }
+
+        // City on top, region underneath. No "Moscow (Moscow)" duplicates.
+        function placeInfo(point) {
+            var city = String(point.Name || '').trim();
+            var region = String(point['Federal subject'] || point.State || '').trim();
+            if (!city) { city = region; region = ''; }
+            if (city.toLowerCase() === region.toLowerCase()) region = '';
+            return { city: city, region: region };
+        }
+
+        // Backend sends "➤ title<br>➤ title<br>...and 3 more". Titles are already HTML-escaped there.
+        function renderHeadlines(raw) {
+            var parts = String(raw || '').split('<br>')
+                .map(function (s) { return s.trim(); })
+                .filter(Boolean);
+            return parts.map(function (p) {
+                if (p.charAt(0) === '\u27A4') {
+                    return '<div class="news-item">' + p.replace(/^\u27A4\s*/, '') + '</div>';
+                }
+                return '<div class="news-more">' + p + '</div>';
+            }).join('');
+        }
+
+        function buildPopup(point, color) {
+            var p = placeInfo(point);
+            var n = Number(point.news_count) || 0;
+            var textColor = n > 3 ? '#ffffff' : '#3b2600';   // dark text on light yellow/orange
+            return '' +
+                '<div class="news-header ignore" style="background-color:' + color + ';color:' + textColor + ';">' +
+                    '<div class="news-title">' +
+                        '<div class="news-city">' + escapeHtml(p.city) + '</div>' +
+                        (p.region ? '<div class="news-region">' + escapeHtml(p.region) + '</div>' : '') +
+                    '</div>' +
+                    '<span class="news-count">' + n + (n === 1 ? ' story' : ' stories') + '</span>' +
+                '</div>' +
+                '<div class="news-list">' + renderHeadlines(point.headlines) + '</div>';
+        }
+        // </helpers>
+
+        // ---------- translation (translate.js from CDN) ----------
+        // Page is English, news text can be Russian. Tell the lib: source = Russian, target = English.
+        // English text is left alone by the library; chrome is also marked class="ignore".
+        var translateReady = false;
+        function setupTranslate() {
+            if (typeof translate === 'undefined') {
+                console.warn('translate.js not loaded. Headlines stay untranslated.');
+                return;
+            }
+            try {
+                translate.service.use('client.edge');         // free browser-side service, no key
+                translate.language.setLocal('russian');
+                if (translate.selectLanguageTag) translate.selectLanguageTag.show = false; // hide its dropdown
+                if (translate.ignore && translate.ignore.class) {
+                    ['ignore', 'leaflet-control-container'].forEach(function (c) {
+                        if (translate.ignore.class.indexOf(c) === -1) translate.ignore.class.push(c);
+                    });
+                }
+                translate.to = 'english';
+                translateReady = true;
+            } catch (e) {
+                console.warn('translate.js setup failed:', e);
+            }
+        }
+
+        function translatePopup() {
+            if (!translateReady) return;
+            setTimeout(function () {
+                try { translate.execute(); }
+                catch (e) { console.warn('translate.execute failed:', e); }
+            }, 50);
+        }
+
+        // ---------- map ----------
+        var map = L.map('map').setView([61.5, 99.0], 3);
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; OpenStreetMap',
+            maxZoom: 18,
+            minZoom: 3,
+            opacity: 0.8
+        }).addTo(map);
+
+        function getColor(d) {
+            return d > 10 ? '#800026' :
+                   d > 5  ? '#BD0026' :
+                   d > 3  ? '#E31A1C' :
+                   d > 1  ? '#FD8D3C' :
+                            '#FEB24C';
+        }
+
+        setupTranslate();
+        map.on('popupopen', translatePopup);
+
+        fetch('/api/news')
+            .then(function (response) { return response.json(); })
+            .then(function (data) {
+                if (!Array.isArray(data)) throw new Error(data.error || 'Bad API response');
+
+                var heatData = [];
+                var HEAT_CAP = 12;   // stop Moscow from washing out every other city
+
+                var badge = document.getElementById('timestamp-badge');
+                if (data.length > 0 && data[0].last_updated) {
+                    var utcDate = new Date(String(data[0].last_updated).replace(' ', 'T') + 'Z');
+                    var localTime = utcDate.toLocaleString('en-IN', {
+                        timeZone: 'Asia/Kolkata',
+                        weekday: 'short', day: 'numeric', month: 'short',
+                        hour: '2-digit', minute: '2-digit', hour12: true
+                    });
+                    badge.innerHTML = 'Last Updated: ' + localTime;
+                } else {
+                    badge.innerHTML = 'Status: No Data Available';
+                }
+
+                data.forEach(function (point) {
+                    var lat = point.lat, lng = point.lon;
+                    if (!lat || !lng) return;
+
+                    var count = Number(point.news_count) || 0;
+                    heatData.push([lat, lng, Math.min(count, HEAT_CAP)]);
+
+                    var color = getColor(count);
+                    var radius = Math.min(Math.max(count * 2, 8), 30);
+
+                    var circle = L.circleMarker([lat, lng], {
+                        color: 'white', weight: 1,
+                        fillColor: color, fillOpacity: 0.9, radius: radius
+                    }).addTo(map);
+
+                    circle.bindPopup(buildPopup(point, color), { maxWidth: 320 });
+                    circle.on('mouseover', function () { this.openPopup(); });
+                });
+
+                if (heatData.length > 0) {
+                    L.heatLayer(heatData, {
+                        radius: 60, blur: 40, maxZoom: 10,
+                        max: HEAT_CAP * 0.6,
+                        gradient: { 0.2: '#FEB24C', 0.5: '#FD8D3C', 0.8: '#E31A1C', 1.0: '#800026' }
+                    }).addTo(map);
+                }
+
+                var legend = L.control({ position: 'bottomright' });
+                legend.onAdd = function () {
+                    var div = L.DomUtil.create('div', 'info legend ignore');
+                    var grades = [1, 2, 4, 6, 11];
+                    div.innerHTML = '<strong>News Volume</strong><br>';
+                    for (var i = 0; i < grades.length; i++) {
+                        div.innerHTML +=
+                            '<i style="background:' + getColor(grades[i]) + '"></i> ' +
+                            (grades[i] === 1 ? '1 Story' :
+                             grades[i] === 11 ? '10+ Stories' :
+                             grades[i] + (grades[i + 1] ? '&ndash;' + (grades[i + 1] - 1) : '+')) + '<br>';
+                    }
+                    return div;
+                };
+                legend.addTo(map);
+            })
+            .catch(function (error) {
+                console.error('Error:', error);
+                document.getElementById('timestamp-badge').innerHTML = 'Error: ' + error.message;
+            });
+    </script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+Flask
+pandas
+feedparser
+gunicorn
+psycopg[binary]
+sqlalchemy
+uvicorn
+apscheduler
+asyncio
+aiohttp
+python-dotenv

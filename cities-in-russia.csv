@@ -1,0 +1,331 @@
+Name,City / town,Russianname,Federal subject,Federal district,2021 Census,2010 Census,Change
+Moscow,Moscow,Москва,Moscow (federal city),Central,13010112,11503501,13.1
+Saint Petersburg,Saint Petersburg,Санкт-Петербург,Saint Petersburg (federal city),Northwest,5601911,4879566,14.8
+Novosibirsk,Novosibirsk,Новосибирск,Novosibirsk Oblast,Siberia,1633595,1473754,10.85
+Yekaterinburg,Yekaterinburg,Екатеринбург,Sverdlovsk Oblast,Ural,1544376,1349772,14.42
+Kazan,Kazan,Казань,Republic of Tatarstan,Volga,1308660,1143535,14.44
+Nizhny Novgorod,Nizhny Novgorod,Нижний Новгород,Nizhny Novgorod Oblast,Volga,1228199,1250619,-1.79
+Chelyabinsk,Chelyabinsk,Челябинск,Chelyabinsk Oblast,Ural,1189525,1130132,5.26
+Krasnoyarsk,Krasnoyarsk,Красноярск,Krasnoyarsk Krai,Siberia,1187771,973826,21.97
+Samara,Samara,Самара,Samara Oblast,Volga,1173299,1164685,0.74
+Ufa,Ufa,Уфа,Republic of Bashkortostan,Volga,1144809,1062319,7.77
+Rostov-on-Don,Rostov-on-Don,Ростов-на-Дону,Rostov Oblast,South,1142162,1089261,4.86
+Omsk,Omsk,Омск,Omsk Oblast,Siberia,1125695,1154119,-2.46
+Krasnodar,Krasnodar,Краснодар,Krasnodar Krai,South,1099344,744995,47.56
+Voronezh,Voronezh,Воронеж,Voronezh Oblast,Central,1057681,889680,18.88
+Perm,Perm,Пермь,Perm Krai,Volga,1034002,991162,4.32
+Volgograd,Volgograd,Волгоград,Volgograd Oblast,South,1028036,1021215,0.67
+Donetsk,Donetsk,Донецк,Donetsk People's Republic,South,901645,1024678,-12.01
+Saratov,Saratov,Саратов,Saratov Oblast,Volga,901361,837900,7.57
+Tyumen,Tyumen,Тюмень,Tyumen Oblast,Ural,847488,581907,45.64
+Tolyatti,Tolyatti,Тольятти,Samara Oblast,Volga,684709,719632,-4.85
+Barnaul,Barnaul,Барнаул,Altai Krai,Siberia,630877,612401,3.02
+Izhevsk,Izhevsk,Ижевск,Udmurt Republic,Volga,623472,627734,-0.68
+Makhachkala,Makhachkala,Махачкала,Republic of Dagestan,North Caucasus,623254,572076,8.95
+Khabarovsk,Khabarovsk,Хабаровск,Khabarovsk Krai,Far East,617441,577441,6.93
+Ulyanovsk,Ulyanovsk,Ульяновск,Ulyanovsk Oblast,Volga,617352,614786,0.42
+Irkutsk,Irkutsk,Иркутск,Irkutsk Oblast,Siberia,617264,587891,5
+Vladivostok,Vladivostok,Владивосток,Primorsky Krai,Far East,603519,592034,1.94
+Yaroslavl,Yaroslavl,Ярославль,Yaroslavl Oblast,Central,577279,591486,-2.4
+Kemerovo,Kemerovo,Кемерово,Kemerovo Oblast,Siberia,557119,532981,4.53
+Tomsk,Tomsk,Томск,Tomsk Oblast,Siberia,556478,524669,6.06
+Naberezhnye Chelny,Naberezhnye Chelny,Набережные Челны,Republic of Tatarstan,Volga,548434,513193,6.87
+Sevastopol,Sevastopol,Севастополь,Sevastopol (federal city),South,547820,342451,59.97
+Stavropol,Stavropol,Ставрополь,Stavropol Krai,North Caucasus,547443,398539,37.36
+Orenburg,Orenburg,Оренбург,Orenburg Oblast,Volga,543654,548331,-0.85
+Novokuznetsk,Novokuznetsk,Новокузнецк,Kemerovo Oblast,Siberia,537480,547904,-1.9
+Ryazan,Ryazan,Рязань,Ryazan Oblast,Central,528599,524927,0.7
+Balashikha,Balashikha,Балашиха,Moscow Oblast,Central,520962,215494,141.75
+Penza,Penza,Пенза,Penza Oblast,Volga,501109,517311,-3.13
+Cheboksary,Cheboksary,Чебоксары,Chuvash Republic,Volga,497807,453721,9.72
+Lipetsk,Lipetsk,Липецк,Lipetsk Oblast,Central,496403,508887,-2.45
+Kaliningrad,Kaliningrad,Калининград,Kaliningrad Oblast,Northwest,490449,431902,13.56
+Astrakhan,Astrakhan,Астрахань,Astrakhan Oblast,South,475629,520339,-8.59
+Tula,Tula,Тула,Tula Oblast,Central,473622,501169,-5.5
+Kirov,Kirov,Киров,Kirov Oblast,Volga,468212,473695,-1.16
+Sochi,Sochi,Сочи,Krasnodar Krai,South,466078,343334,35.75
+Kursk,Kursk,Курск,Kursk Oblast,Central,440052,415159,6
+Mariupol,Mariupol,Мариуполь,Donetsk People's Republic,South,425681,510835,-16.67
+Ulan-Ude,Ulan-Ude,Улан-Удэ,Republic of Buryatia,Far East,437565,404426,8.19
+Tver,Tver,Тверь,Tver Oblast,Central,416219,403606,3.13
+Magnitogorsk,Magnitogorsk,Магнитогорск,Chelyabinsk Oblast,Ural,410594,407775,0.69
+Lugansk,Lugansk,Луганск,Luhansk People's Republic,South,425681,459294,-7.32
+Surgut,Surgut,Сургут,Khanty-Mansi Autonomous Okrug-Yugra,Ural,396443,306675,29.27
+Bryansk,Bryansk,Брянск,Bryansk Oblast,Central,379152,415721,-8.8
+Ivanovo,Ivanovo,Иваново,Ivanovo Oblast,Central,361644,408330,-11.43
+Yakutsk,Yakutsk,Якутск,Sakha (Yakutia) Republic,Far East,355443,269601,31.84
+Vladimir,Vladimir,Владимир,Vladimir Oblast,Central,349951,345373,1.33
+Simferopol,Simferopol,Симферопoль,Republic of Crimea,South,340540,343644,-0.9
+Belgorod,Belgorod,Белгород,Belgorod Oblast,Central,339978,356402,-4.61
+Makeyevka,Makeyevka,Макеевка,Donetsk People's Republic,South,338968,387609,-12.55
+Nizhny Tagil,Nizhny Tagil,Нижний Тагил,Sverdlovsk Oblast,Ural,338966,361811,-6.31
+Kaluga,Kaluga,Калуга,Kaluga Oblast,Central,337058,324698,3.81
+Chita,Chita,Чита,Zabaykalsky Krai,Far East,334427,324444,3.08
+Grozny,Grozny,Грозный,Chechen Republic,North Caucasus,328533,271573,20.97
+Volzhsky,Volzhsky,Волжский,Volgograd Oblast,South,321479,314255,2.3
+Smolensk,Smolensk,Смоленск,Smolensk Oblast,Central,316570,326861,-3.15
+Podolsk,Podolsk,Подольск,Moscow Oblast,Central,314934,187961,67.55
+Saransk,Saransk,Саранск,Republic of Mordovia,Volga,314871,297415,5.87
+Vologda,Vologda,Вологда,Vologda Oblast,Northwest,313944,301755,4.04
+Kurgan,Kurgan,Курган,Kurgan Oblast,Ural,310911,333606,-6.8
+Cherepovets,Cherepovets,Череповец,Vologda Oblast,Northwest,305185,312310,-2.28
+Oryol,Oryol,Орёл,Oryol Oblast,Central,303169,317747,-4.59
+Arkhangelsk,Arkhangelsk,Архангельск,Arkhangelsk Oblast,Northwest,301199,348783,-13.64
+Vladikavkaz,Vladikavkaz,Владикавказ,Republic of North Ossetia-Alania,North Caucasus,295830,311693,-5.09
+Nizhnevartovsk,Nizhnevartovsk,Нижневартовск,Khanty-Mansi Autonomous Okrug-Yugra,Ural,283256,251694,12.54
+Yoshkar-Ola,Yoshkar-Ola,Йошкар-Ола,Mari El Republic,Volga,281248,248782,13.05
+Sterlitamak,Sterlitamak,Стерлитамак,Republic of Bashkortostan,Volga,277410,273486,1.43
+Murmansk,Murmansk,Мурманск,Murmansk Oblast,Northwest,270384,307257,-12
+Kostroma,Kostroma,Кострома,Kostroma Oblast,Central,267481,268742,-0.47
+Novorossiysk,Novorossiysk,Новороссийск,Krasnodar Krai,South,262293,241952,8.41
+Tambov,Tambov,Тамбов,Tambov Oblast,Central,261803,280161,-6.55
+Khimki,Khimki,Химки,Moscow Oblast,Central,257128,207425,23.96
+Mytishchi,Mytishchi,Мытищи,Moscow Oblast,Central,255429,173160,47.51
+Nalchik,Nalchik,Нальчик,Kabardino-Balkar Republic,North Caucasus,247054,240203,2.85
+Taganrog,Taganrog,Таганрог,Rostov Oblast,South,245120,257681,-4.87
+Nizhnekamsk,Nizhnekamsk,Нижнекамск,Republic of Tatarstan,Volga,241479,234044,3.18
+Blagoveshchensk,Blagoveshchensk,Благовещенск,Amur Oblast,Far East,241437,214390,12.62
+Gorlovka,Gorlovka,Горловка,Donetsk People's Republic,South,239828,289872,-17.26
+Komsomolsk-on-Amur,Komsomolsk-on-Amur,Комсомольск-на-Амуре,Khabarovsk Krai,Far East,238505,263906,-9.63
+Petrozavodsk,Petrozavodsk,Петрозаводск,Republic of Karelia,Northwest,234897,261987,-10.34
+Korolyov,Korolyov,Королёв,Moscow Oblast,Central,228095,183402,24.37
+Shakhty,Shakhty,Шахты,Rostov Oblast,South,226452,239987,-5.64
+Engels,Engels,Энгельс,Saratov Oblast,Volga,225428,202419,11.37
+Veliky Novgorod,Veliky Novgorod,Великий Новгород,Novgorod Oblast,Northwest,224286,218717,2.55
+Lyubertsy,Lyubertsy,Люберцы,Moscow Oblast,Central,224195,172525,29.95
+Bratsk,Bratsk,Братск,Irkutsk Oblast,Siberia,224071,246319,-9.03
+Stary Oskol,Stary Oskol,Старый Оскол,Belgorod Oblast,Central,221676,221085,0.27
+Angarsk,Angarsk,Ангарск,Irkutsk Oblast,Siberia,221296,233567,-5.25
+Syktyvkar,Syktyvkar,Сыктывкар,Komi Republic,Northwest,220580,235006,-6.14
+Dzerzhinsk,Dzerzhinsk,Дзержинск,Nizhny Novgorod Oblast,Volga,218630,240742,-9.18
+Pskov,Pskov,Псков,Pskov Oblast,Northwest,193082,203279,-5.02
+Orsk,Orsk,Орск,Orenburg Oblast,Volga,189195,239800,-21.1
+Krasnogorsk,Krasnogorsk,Красногорск,Moscow Oblast,Central,187634,116896,60.51
+Armavir,Armavir,Армавир,Krasnodar Krai,South,187177,188832,-0.88
+Abakan,Abakan,Абакан,Republic of Khakassia,Siberia,184769,165214,11.84
+Balakovo,Balakovo,Балаково,Saratov Oblast,Volga,184466,199690,-7.62
+Biysk,Biysk,Бийск,Altai Krai,Siberia,183852,210115,-12.5
+Yuzhno-Sakhalinsk,Yuzhno-Sakhalinsk,Южно-Сахалинск,Sakhalin Oblast,Far East,181587,181728,-0.08
+Odintsovo,Odintsovo,Одинцово,Moscow Oblast,Central,180530,138930,29.94
+Ussuriysk,Ussuriysk,Уссурийск,Primorsky Krai,Far East,180393,158004,14.17
+Prokopyevsk,Prokopyevsk,Прокопьевск,Kemerovo Oblast,Siberia,177819,210130,-15.38
+Rybinsk,Rybinsk,Рыбинск,Yaroslavl Oblast,Central,177295,200771,-11.69
+Norilsk,Norilsk,Норильск,Krasnoyarsk Krai,Siberia,174453,175365,-0.52
+Volgodonsk,Volgodonsk,Волгодонск,Rostov Oblast,South,168048,170841,-1.63
+Syzran,Syzran,Сызрань,Samara Oblast,Volga,165725,178750,-7.29
+Petropavlovsk-Kamchatsky,Petropavlovsk-Kamchatsky,Петропавловск-Камчатский,Kamchatka Krai,Far East,164900,179780,-8.28
+Kamensk-Uralsky,Kamensk-Uralsky,Каменск-Уральский,Sverdlovsk Oblast,Ural,164192,174689,-6.01
+Novocherkassk,Novocherkassk,Новочеркасск,Rostov Oblast,South,163674,168746,-3.01
+Almetyevsk,Almetyevsk,Альметьевск,Republic of Tatarstan,Volga,163512,146393,11.69
+Zlatoust,Zlatoust,Златоуст,Chelyabinsk Oblast,Ural,161774,174962,-7.54
+Severodvinsk,Severodvinsk,Северодвинск,Arkhangelsk Oblast,Northwest,157213,192353,-18.27
+Khasavyurt,Khasavyurt,Хасавюрт,Republic of Dagestan,North Caucasus,155144,131187,18.26
+Kerch,Kerch,Керчь,Republic of Crimea,South,154621,157007,-1.52
+Domodedovo,Domodedovo,Домодедово,Moscow Oblast,Central,152404,96145,58.51
+Melitopol,Melitopol,Мелитополь,Zaporozhye Oblast,South,148851,160352,-7.17
+Salavat,Salavat,Салават,Republic of Bashkortostan,Volga,148575,156095,-4.82
+Miass,Miass,Миасс,Chelyabinsk Oblast,Ural,147995,151751,-2.48
+Kopeysk,Kopeysk,Копейск,Chelyabinsk Oblast,Ural,147806,137601,7.42
+Pyatigorsk,Pyatigorsk,Пятигорск,Stavropol Krai,North Caucasus,146473,142511,2.78
+Elektrostal,Elektrostal,Электросталь,Moscow Oblast,Central,146403,155196,-5.67
+Maykop,Maykop,Майкоп,Republic of Adygea,South,143385,144249,-0.6
+Nakhodka,Nakhodka,Находка,Primorsky Krai,Far East,139931,159719,-12.39
+Berezniki,Berezniki,Березники,Perm Krai,Volga,138069,156466,-11.76
+Kolomna,Kolomna,Коломна,Moscow Oblast,Central,134850,144589,-6.74
+Shchyolkovo,Shchyolkovo,Щёлково,Moscow Oblast,Central,134211,110411,21.56
+Serpukhov,Serpukhov,Серпухов,Moscow Oblast,Central,133793,127041,5.31
+Kovrov,Kovrov,Ковров,Vladimir Oblast,Central,132417,145214,-8.81
+Neftekamsk,Neftekamsk,Нефтекамск,Republic of Bashkortostan,Volga,131942,121733,8.39
+Kislovodsk,Kislovodsk,Кисловодск,Stavropol Krai,North Caucasus,127521,128553,-0.8
+Bataysk,Bataysk,Батайск,Rostov Oblast,South,126988,111843,13.54
+Rubtsovsk,Rubtsovsk,Рубцовск,Altai Krai,Siberia,126834,147002,-13.72
+Obninsk,Obninsk,Обнинск,Kaluga Oblast,Central,125376,104739,19.7
+Kyzyl,Kyzyl,Кызыл,Tuva Republic,Siberia,125241,109918,13.94
+Derbent,Derbent,Дербент,Republic of Dagestan,North Caucasus,124953,119200,4.83
+Nefteyugansk,Nefteyugansk,Нефтеюганск,Khanty-Mansi Autonomous Okrug-Yugra,Ural,124732,122855,1.53
+Nazran,Nazran,Назрань,Republic of Ingushetia,North Caucasus,122350,93335,31.09
+Kaspiysk,Kaspiysk,Каспийск,Republic of Dagestan,North Caucasus,121140,100129,20.98
+Dolgoprudny,Dolgoprudny,Долгопрудный,Moscow Oblast,Central,120907,90956,32.93
+Novocheboksarsk,Novocheboksarsk,Новочебоксарск,Chuvash Republic,Volga,120375,124097,-3
+Novomoskovsk,Novomoskovsk,Новомосковск,Tula Oblast,Central,119697,131386,-8.9
+Yessentuki,Yessentuki,Ессентуки,Stavropol Krai,North Caucasus,119658,100996,18.48
+Nevinnomyssk,Nevinnomyssk,Невинномысск,Stavropol Krai,North Caucasus,117562,118360,-0.67
+Oktyabrsky,Oktyabrsky,Октябрьский,Republic of Bashkortostan,Volga,115557,109474,5.56
+Ramenskoye,Ramenskoye,Раменское,Moscow Oblast,Central,114537,96317,18.92
+Pervouralsk,Pervouralsk,Первоуральск,Sverdlovsk Oblast,Ural,114450,124528,-8.09
+Mikhaylovsk,Mikhaylovsk,Михайловск,Stavropol Krai,North Caucasus,114133,70981,60.79
+Reutov,Reutov,Реутов,Moscow Oblast,Central,113871,87314,30.42
+Cherkessk,Cherkessk,Черкесск,Karachay-Cherkess Republic,North Caucasus,113226,129069,-12.27
+Zhukovsky,Zhukovsky,Жуковский,Moscow Oblast,Central,111222,104736,6.19
+Dimitrovgrad,Dimitrovgrad,Димитровград,Ulyanovsk Oblast,Volga,110968,122580,-9.47
+Pushkino,Pushkino,Пушкино,Moscow Oblast,Central,110868,102874,7.77
+Artyom,Artyom,Артём,Primorsky Krai,Far East,109556,102603,6.78
+Kamyshin,Kamyshin,Камышин,Volgograd Oblast,South,107927,119565,-9.73
+Yevpatoriya,Yevpatoriya,Евпатория,Republic of Crimea,South,107877,105915,1.85
+Murom,Murom,Муром,Vladimir Oblast,Central,107497,116075,-7.39
+Khanty-Mansiysk,Khanty-Mansiysk,Ханты-Мансийск,Khanty-Mansi Autonomous Okrug-Yugra,Ural,107473,80151,34.09
+Novy Urengoy,Novy Urengoy,Новый Уренгой,Yamalo-Nenets Autonomous Okrug,Ural,107251,104107,3.02
+Seversk,Seversk,Северск,Tomsk Oblast,Siberia,106648,108590,-1.79
+Berdyansk,Berdyansk,Бердянск,Zaporozhye Oblast,South,106311,121759,-12.69
+Alchevsk,Alchevsk,Алчевск,Luhansk People's Republic,South,106062,118611,-10.58
+Orekhovo-Zuyevo,Orekhovo-Zuyevo,Орехово-Зуево,Moscow Oblast,Central,105745,120670,-12.37
+Arzamas,Arzamas,Арзамас,Nizhny Novgorod Oblast,Volga,104908,106362,-1.37
+Noginsk,Noginsk,Ногинск,Moscow Oblast,Central,103891,100072,3.82
+Novoshakhtinsk,Novoshakhtinsk,Новошахтинск,Rostov Oblast,South,103480,111075,-6.84
+Berdsk,Berdsk,Бердск,Novosibirsk Oblast,Siberia,102850,97296,5.71
+Elista,Elista,Элиста,Republic of Kalmykia,South,102583,103749,-1.12
+Sergiyev Posad,Sergiyev Posad,Сергиев Посад,Moscow Oblast,Central,101756,111179,-8.48
+Vidnoye,Vidnoye,Видное,Moscow Oblast,Central,101490,56752,78.83
+Achinsk,Achinsk,Ачинск,Krasnoyarsk Krai,Siberia,100621,109155,-7.82
+Tobolsk,Tobolsk,Тобольск,Tyumen Oblast,Ural,100352,99694,0.66
+Noyabrsk,Noyabrsk,Ноябрьск,Yamalo-Nenets Autonomous Okrug,Ural,100188,110620,-9.43
+Yelets,Yelets,Елец,Lipetsk Oblast,Central,99875,108404,-7.87
+Zelenodolsk,Zelenodolsk,Зеленодольск,Republic of Tatarstan,Volga,99137,97674,1.5
+Severodonetsk,Severodonetsk,Северодонецк,Luhansk People's Republic,South,99036,119940,-17.43
+Novokuybyshevsk,Novokuybyshevsk,Новокуйбышевск,Samara Oblast,Volga,98306,108438,-9.34
+Votkinsk,Votkinsk,Воткинск,Udmurt Republic,Volga,97471,99022,-1.57
+Zheleznogorsk,Zheleznogorsk,Железногорск,Kursk Oblast,Central,97038,95049,2.09
+Mezhdurechensk,Mezhdurechensk,Междуреченск,Kemerovo Oblast,Siberia,96174,101678,-5.41
+Voskresensk,Voskresensk,Воскресенск,Moscow Oblast,Central,95495,91464,4.41
+Gatchina,Gatchina,Гатчина,Leningrad Oblast,Northwest,94377,92937,1.55
+Serov,Serov,Серов,Sverdlovsk Oblast,Ural,94211,99373,-5.19
+Sarov,Sarov,Саров,Nizhny Novgorod Oblast,Volga,93357,92047,1.42
+Lisichansk,Lisichansk,Лисичанск,Luhansk People's Republic,South,93340,115299,-19.05
+Leninsk-Kuznetsky,Leninsk-Kuznetsky,Ленинск-Кузнецкий,Kemerovo Oblast,Siberia,92244,101666,-9.27
+Sarapul,Sarapul,Сарапул,Udmurt Republic,Volga,91115,101381,-10.13
+Magadan,Magadan,Магадан,Magadan Oblast,Far East,90757,95982,-5.44
+Michurinsk,Michurinsk,Мичуринск,Tambov Oblast,Central,90451,98758,-8.41
+Solikamsk,Solikamsk,Соликамск,Perm Krai,Volga,89473,97384,-8.12
+Murino,Murino,Мурино,Leningrad Oblast,Northwest,89083,7949,1020.68
+Chekhov,Chekhov,Чехов,Moscow Oblast,Central,89025,60720,46.62
+Klin,Klin,Клин,Moscow Oblast,Central,88511,80585,9.84
+Buzuluk,Buzuluk,Бузулук,Orenburg Oblast,Volga,88341,82904,6.56
+Glazov,Glazov,Глазов,Udmurt Republic,Volga,87762,95854,-8.44
+Kansk,Kansk,Канск,Krasnoyarsk Krai,Siberia,86816,94226,-7.86
+Velikiye Luki,Velikiye Luki,Великие Луки,Pskov Oblast,Northwest,86711,98778,-12.22
+Kamensk-Shakhtinsky,Kamensk-Shakhtinsky,Каменск-Шахтинский,Rostov Oblast,South,86365,95296,-9.37
+Gubkin,Gubkin,Губкин,Belgorod Oblast,Central,85225,88560,-3.77
+Kiselyovsk,Kiselyovsk,Киселёвск,Kemerovo Oblast,Siberia,83431,98365,-15.18
+Yeysk,Yeysk,Ейск,Krasnodar Krai,South,82943,87769,-5.5
+Ivanteyevka,Ivanteyevka,Ивантеевка,Moscow Oblast,Central,82827,58626,41.28
+Lobnya,Lobnya,Лобня,Moscow Oblast,Central,82764,74252,11.46
+Azov,Azov,Азов,Rostov Oblast,South,81924,82937,-1.22
+Anapa,Anapa,Анапа,Krasnodar Krai,South,81863,58990,38.77
+Bugulma,Bugulma,Бугульма,Republic of Tatarstan,Volga,81677,89204,-8.44
+Gelendzhik,Gelendzhik,Геленджик,Krasnodar Krai,South,80204,54980,45.88
+Ukhta,Ukhta,Ухта,Komi Republic,Northwest,79899,99591,-19.77
+Yurga,Yurga,Юрга,Kemerovo Oblast,Siberia,79693,81533,-2.26
+Ust-Ilimsk,Ust-Ilimsk,Усть-Илимск,Irkutsk Oblast,Siberia,79570,86610,-8.13
+Krasny Luch,Krasny Luch,Красный Луч,Luhansk People's Republic,South,79533,94756,-16.07
+Vsevolozhsk,Vsevolozhsk,Всеволожск,Leningrad Oblast,Northwest,79038,59704,32.38
+Novouralsk,Novouralsk,Новоуральск,Sverdlovsk Oblast,Ural,78479,85522,-8.24
+Kuznetsk,Kuznetsk,Кузнецк,Penza Oblast,Volga,78390,88839,-11.76
+Bor,Bor,Бор,Nizhny Novgorod Oblast,Volga,78372,78058,0.4
+Kineshma,Kineshma,Кинешма,Ivanovo Oblast,Central,77694,88164,-11.88
+Ozyorsk,Ozyorsk,Озёрск,Chelyabinsk Oblast,Ural,76896,82164,-6.41
+Yenakiyevo,Yenakiyevo,Енакиево,Donetsk People's Republic,South,76673,104266,-26.46
+Novotroitsk,Novotroitsk,Новотроицк,Orenburg Oblast,Volga,75960,98173,-22.63
+Kropotkin,Kropotkin,Кропоткин,Krasnodar Krai,South,75858,80765,-6.08
+Chaykovsky,Chaykovsky,Чайковский,Perm Krai,Volga,75837,82895,-8.51
+Chernogorsk,Chernogorsk,Черногорск,Republic of Khakassia,Siberia,75745,72147,4.99
+Usolye-Sibirskoye,Usolye-Sibirskoye,Усолье-Сибирское,Irkutsk Oblast,Siberia,74762,83327,-10.28
+Yalta,Yalta,Ялта,Republic of Crimea,South,74652,81654,-8.58
+Dubna,Dubna,Дубна,Moscow Oblast,Central,74183,70663,4.98
+Balashov,Balashov,Балашов,Saratov Oblast,Volga,74057,82227,-9.94
+Yelabuga,Yelabuga,Елабуга,Republic of Tatarstan,Volga,73630,70728,4.1
+Stakhanov,Stakhanov,Стаханов,Luhansk People's Republic,South,73248,90144,-18.74
+Novoaltaysk,Novoaltaysk,Новоалтайск,Altai Krai,Siberia,73049,70437,3.71
+Vyborg,Vyborg,Выборг,Leningrad Oblast,Northwest,72530,79962,-9.29
+Yegoryevsk,Yegoryevsk,Егорьевск,Moscow Oblast,Central,71686,70081,2.29
+Verkhnyaya Pyshma,Verkhnyaya Pyshma,Верхняя Пышма,Sverdlovsk Oblast,Ural,71335,59749,19.39
+Naro-Fominsk,Naro-Fominsk,Наро-Фоминск,Moscow Oblast,Central,71121,64665,9.98
+Bakhmut,Bakhmut,Бахмут,Donetsk People's Republic,South,71094,82916,-14.26
+Mineralnye Vody,Mineralnye Vody,Минеральные Воды,Stavropol Krai,North Caucasus,70485,76728,-8.14
+Troitsk,Troitsk,Троицк,Chelyabinsk Oblast,Ural,70301,78372,-10.3
+Chapayevsk,Chapayevsk,Чапаевск,Samara Oblast,Volga,70228,72692,-3.39
+Minusinsk,Minusinsk,Минусинск,Krasnoyarsk Krai,Siberia,70089,71170,-1.52
+Birobidzhan,Birobidzhan,Биробиджан,Jewish Autonomous Oblast,Far East,70064,75413,-7.09
+Shadrinsk,Shadrinsk,Шадринск,Kurgan Oblast,Ural,68609,77756,-11.76
+Belovo,Belovo,Белово,Kemerovo Oblast,Siberia,68542,76764,-10.71
+Tuymazy,Tuymazy,Туймазы,Republic of Bashkortostan,Volga,68349,66836,2.26
+Sertolovo,Sertolovo,Сертолово,Leningrad Oblast,Northwest,68241,47457,43.8
+Buynaksk,Buynaksk,Буйнакск,Republic of Dagestan,North Caucasus,68121,62623,8.78
+Ishim,Ishim,Ишим,Tyumen Oblast,Ural,67614,65243,3.63
+Kirovo-Chepetsk,Kirovo-Chepetsk,Кирово-Чепецк,Kirov Oblast,Volga,66651,80921,-17.63
+Anzhero-Sudzhensk,Anzhero-Sudzhensk,Анжеро-Судженск,Kemerovo Oblast,Siberia,66583,76646,-13.13
+Feodosiya,Feodosiya,Феодосия,Republic of Crimea,South,66293,74669,-11.22
+Dmitrov,Dmitrov,Дмитров,Moscow Oblast,Central,65574,61305,6.96
+Sosnovy Bor,Sosnovy Bor,Сосновый Бор,Leningrad Oblast,Northwest,65367,65788,-0.64
+Gorno-Altaysk,Gorno-Altaysk,Горно-Алтайск,Altai Republic,Siberia,65342,56933,14.77
+Lytkarino,Lytkarino,Лыткарино,Moscow Oblast,Central,65212,55237,18.06
+Pavlovsky Posad,Pavlovsky Posad,Павловский Посад,Moscow Oblast,Central,65098,63711,2.18
+Beloretsk,Beloretsk,Белорецк,Republic of Bashkortostan,Volga,64525,68806,-6.22
+Stupino,Stupino,Ступино,Moscow Oblast,Central,64412,66816,-3.6
+Gudermes,Gudermes,Гудермес,Chechen Republic,North Caucasus,64376,45631,41.08
+Ishimbay,Ishimbay,Ишимбай,Republic of Bashkortostan,Volga,64041,66259,-3.35
+Donskoy,Donskoy,Донской,Tula Oblast,Central,63837,64552,-1.11
+Kotelniki,Kotelniki,Котельники,Moscow Oblast,Central,63728,32338,97.07
+Kstovo,Kstovo,Кстово,Nizhny Novgorod Oblast,Volga,63646,66657,-4.52
+Urus-Martan,Urus-Martan,Урус-Мартан,Chechen Republic,North Caucasus,63449,49070,29.3
+Georgiyevsk,Georgiyevsk,Георгиевск,Stavropol Krai,North Caucasus,63221,72153,-12.38
+Klintsy,Klintsy,Клинцы,Bryansk Oblast,Central,63059,62510,0.88
+Nyagan,Nyagan,Нягань,Khanty-Mansi Autonomous Okrug-Yugra,Ural,63034,54890,14.84
+Slavyansk-na-Kubani,Slavyansk-na-Kubani,Славянск-на-Кубани,Krasnodar Krai,South,62985,63842,-1.34
+Kungur,Kungur,Кунгур,Perm Krai,Volga,62673,66074,-5.15
+Sunzha,Sunzha,Сунжа,Republic of Ingushetia,North Caucasus,62078,61598,0.78
+Tuapse,Tuapse,Туапсе,Krasnodar Krai,South,61571,63292,-2.72
+Kogalym,Kogalym,Когалым,Khanty-Mansi Autonomous Okrug-Yugra,Ural,61441,58181,5.6
+Belogorsk,Belogorsk,Белогорск,Amur Oblast,Far East,61440,68249,-9.98
+Leninogorsk,Leninogorsk,Лениногорск,Republic of Tatarstan,Volga,60993,64127,-4.89
+Rossosh,Rossosh,Россошь,Voronezh Oblast,Central,60879,62865,-3.16
+Aleksin,Aleksin,Алексин,Tula Oblast,Central,60842,61732,-1.44
+Borisoglebsk,Borisoglebsk,Борисоглебск,Voronezh Oblast,Central,60687,65585,-7.47
+Fryazino,Fryazino,Фрязино,Moscow Oblast,Central,60580,55369,9.41
+Gukovo,Gukovo,Гуково,Rostov Oblast,South,60361,67278,-10.28
+Revda,Revda,Ревда,Sverdlovsk Oblast,Ural,60200,61875,-2.71
+Prokhladny,Prokhladny,Прохладный,Kabardino-Balkar Republic,North Caucasus,59938,59601,0.57
+Beryozovsky,Beryozovsky,Берёзовский,Sverdlovsk Oblast,Ural,59698,51651,15.58
+Belebey,Belebey,Белебей,Republic of Bashkortostan,Volga,59195,60188,-1.65
+Chistopol,Chistopol,Чистополь,Republic of Tatarstan,Volga,58815,60755,-3.19
+Zarechny,Zarechny,Заречный,Penza Oblast,Volga,58510,63601,-8
+Budyonnovsk,Budyonnovsk,Будённовск,Stavropol Krai,North Caucasus,58103,64624,-10.09
+Kumertau,Kumertau,Кумертау,Republic of Bashkortostan,Volga,57949,62851,-7.8
+Salsk,Salsk,Сальск,Rostov Oblast,South,57937,61316,-5.51
+Dzerzhinsky,Dzerzhinsky,Дзержинский,Moscow Oblast,Central,57918,47163,22.8
+Labinsk,Labinsk,Лабинск,Krasnodar Krai,South,57428,62864,-8.65
+Asbest,Asbest,Асбест,Sverdlovsk Oblast,Ural,57317,68893,-16.8
+Iskitim,Iskitim,Искитим,Novosibirsk Oblast,Siberia,57147,60078,-4.88
+Pavlovo,Pavlovo,Павлово,Nizhny Novgorod Oblast,Volga,57116,60698,-5.9
+Alexandrov,Alexandrov,Александров,Vladimir Oblast,Central,57053,61551,-7.31
+Vorkuta,Vorkuta,Воркута,Komi Republic,Northwest,56985,70548,-19.23
+Sibay,Sibay,Сибай,Republic of Bashkortostan,Volga,56514,62763,-9.96
+Meleuz,Meleuz,Мелеуз,Republic of Bashkortostan,Volga,56505,61390,-7.96
+Kotlas,Kotlas,Котлас,Arkhangelsk Oblast,Northwest,56093,60562,-7.38
+Mikhaylovka,Mikhaylovka,Михайловка,Volgograd Oblast,South,56031,59132,-5.24
+Izberbash,Izberbash,Избербаш,Republic of Dagestan,North Caucasus,55996,55646,0.63
+Krasnoturyinsk,Krasnoturyinsk,Краснотурьинск,Sverdlovsk Oblast,Ural,55875,59633,-6.3
+Belorechensk,Belorechensk,Белореченск,Krasnodar Krai,South,55870,53892,3.67
+Rzhev,Rzhev,Ржев,Tver Oblast,Central,55757,61982,-10.04
+Lesosibirsk,Lesosibirsk,Лесосибирск,Krasnoyarsk Krai,Siberia,55730,61139,-8.85
+Tikhoretsk,Tikhoretsk,Тихорецк,Krasnodar Krai,South,55686,61823,-9.93
+Tikhvin,Tikhvin,Тихвин,Leningrad Oblast,Northwest,55415,58459,-5.21
+Rubezhnoye,Rubezhnoye,Рубежное,Luhansk People's Republic,South,55247,65564,-15.74
+Shuya,Shuya,Шуя,Ivanovo Oblast,Central,55225,58486,-5.58
+Polevskoy,Polevskoy,Полевской,Sverdlovsk Oblast,Ural,55182,64220,-14.07
+Shchyokino,Shchyokino,Щёкино,Tula Oblast,Central,55109,58139,-5.21
+Shali,Shali,Шали,Chechen Republic,North Caucasus,55054,47708,15.4
+Volsk,Volsk,Вольск,Saratov Oblast,Volga,55035,66508,-17.25
+Krymsk,Krymsk,Крымск,Krasnodar Krai,South,54597,57382,-4.85
+Zelenogorsk,Zelenogorsk,Зеленогорск,Krasnoyarsk Krai,Siberia,54279,66056,-17.83
+Liski,Liski,Лиски,Voronezh Oblast,Central,54147,55864,-3.07
+Lysva,Lysva,Лысьва,Perm Krai,Volga,53855,65918,-18.3
+Neryungri,Neryungri,Нерюнгри,Sakha (Yakutia) Republic,Far East,53409,61747,-13.5
+Volzhsk,Volzhsk,Волжск,Mari El Republic,Volga,53013,55659,-4.75
+Energodar,Energodar,Энергодар,Zaporozhye Oblast,South,52237,56180,-7.02
+Vyazma,Vyazma,Вязьма,Smolensk Oblast,Central,51950,57101,-9.02
+Timashyovsk,Timashyovsk,Тимашёвск,Krasnodar Krai,South,51858,53924,-3.83
+Gus-Khrustalny,Gus-Khrustalny,Гусь-Хрустальный,Vladimir Oblast,Central,51552,60784,-15.19
+Krasnokamensk,Krasnokamensk,Краснокаменск,Zabaykalsky Krai,Far East,51137,55666,-8.14
+Kirishi,Kirishi,Кириши,Leningrad Oblast,Northwest,51028,52309,-2.45
+Snezhinsk,Snezhinsk,Снежинск,Chelyabinsk Oblast,Ural,50619,48810,3.71
+Zhigulyovsk,Zhigulyovsk,Жигулёвск,Samara Oblast,Volga,50466,55565,-9.18

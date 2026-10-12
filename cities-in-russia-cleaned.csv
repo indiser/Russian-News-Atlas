@@ -1,0 +1,331 @@
+Name,City / town,Russianname,Federal subject,Federal district
+Moscow,Moscow,Москва,Moscow,Central
+Saint Petersburg,Saint Petersburg,Санкт-Петербург,Saint Petersburg,Northwest
+Novosibirsk,Novosibirsk,Новосибирск,Novosibirsk Oblast,Siberia
+Yekaterinburg,Yekaterinburg,Екатеринбург,Sverdlovsk Oblast,Ural
+Kazan,Kazan,Казань,Tatarstan,Volga
+Nizhny Novgorod,Nizhny Novgorod,Нижний Новгород,Nizhny Novgorod Oblast,Volga
+Chelyabinsk,Chelyabinsk,Челябинск,Chelyabinsk Oblast,Ural
+Krasnoyarsk,Krasnoyarsk,Красноярск,Krasnoyarskiy Kray,Siberia
+Samara,Samara,Самара,Samara Oblast,Volga
+Ufa,Ufa,Уфа,Bashkortostan,Volga
+Rostov-on-Don,Rostov-on-Don,Ростов-на-Дону,Rostov Oblast,South
+Omsk,Omsk,Омск,Omsk Oblast,Siberia
+Krasnodar,Krasnodar,Краснодар,Krasnodarskiy Kray,South
+Voronezh,Voronezh,Воронеж,Voronezh Oblast,Central
+Perm,Perm,Пермь,Perm Krai,Volga
+Volgograd,Volgograd,Волгоград,Volgograd Oblast,South
+Donetsk,Donetsk,Донецк,Donetsk People's Republic,South
+Saratov,Saratov,Саратов,Saratovskaya Oblast,Volga
+Tyumen,Tyumen,Тюмень,Tyumen Oblast,Ural
+Tolyatti,Tolyatti,Тольятти,Samara Oblast,Volga
+Barnaul,Barnaul,Барнаул,Altayskiy Kray,Siberia
+Izhevsk,Izhevsk,Ижевск,Udmurtskaya Respublika,Volga
+Makhachkala,Makhachkala,Махачкала,Dagestan,North Caucasus
+Khabarovsk,Khabarovsk,Хабаровск,Khabarovskiy Kray,Far East
+Ulyanovsk,Ulyanovsk,Ульяновск,Ulyanovsk Oblast,Volga
+Irkutsk,Irkutsk,Иркутск,Irkutsk Oblast,Siberia
+Vladivostok,Vladivostok,Владивосток,Primorskiy Kray,Far East
+Yaroslavl,Yaroslavl,Ярославль,Yaroslavl Oblast,Central
+Kemerovo,Kemerovo,Кемерово,Kemerovo Oblast,Siberia
+Tomsk,Tomsk,Томск,Tomsk Oblast,Siberia
+Naberezhnye Chelny,Naberezhnye Chelny,Набережные Челны,Tatarstan,Volga
+Sevastopol,Sevastopol,Севастополь,Sevastopol,South
+Stavropol,Stavropol,Ставрополь,Stavropol Kray,North Caucasus
+Orenburg,Orenburg,Оренбург,Orenburg Oblast,Volga
+Novokuznetsk,Novokuznetsk,Новокузнецк,Kemerovo Oblast,Siberia
+Ryazan,Ryazan,Рязань,Ryazan Oblast,Central
+Balashikha,Balashikha,Балашиха,Moscow Oblast,Central
+Penza,Penza,Пенза,Penza Oblast,Volga
+Cheboksary,Cheboksary,Чебоксары,Chuvashskaya Respublika,Volga
+Lipetsk,Lipetsk,Липецк,Lipetsk Oblast,Central
+Kaliningrad,Kaliningrad,Калининград,Kaliningrad Oblast,Northwest
+Astrakhan,Astrakhan,Астрахань,Astrakhan Oblast,South
+Tula,Tula,Тула,Tula Oblast,Central
+Kirov,Kirov,Киров,Kirov Oblast,Volga
+Sochi,Sochi,Сочи,Krasnodarskiy Kray,South
+Kursk,Kursk,Курск,Kursk Oblast,Central
+Mariupol,Mariupol,Мариуполь,Donetsk People's Republic,South
+Ulan-Ude,Ulan-Ude,Улан-Удэ,Respublika Buryatiya,Far East
+Tver,Tver,Тверь,Tver Oblast,Central
+Magnitogorsk,Magnitogorsk,Магнитогорск,Chelyabinsk Oblast,Ural
+Lugansk,Lugansk,Луганск,Luhansk People's Republic,South
+Surgut,Surgut,Сургут,Khanty-Mansiyskiy Avtonomnyy Okrug-Yugra,Ural
+Bryansk,Bryansk,Брянск,Bryansk Oblast,Central
+Ivanovo,Ivanovo,Иваново,Ivanovo Oblast,Central
+Yakutsk,Yakutsk,Якутск,Republic of Sakha (Yakutia),Far East
+Vladimir,Vladimir,Владимир,Vladimir Oblast,Central
+Simferopol,Simferopol,Симферопoль,Republic of Crimea,South
+Belgorod,Belgorod,Белгород,Belgorod Oblast,Central
+Makeyevka,Makeyevka,Макеевка,Donetsk People's Republic,South
+Nizhny Tagil,Nizhny Tagil,Нижний Тагил,Sverdlovsk Oblast,Ural
+Kaluga,Kaluga,Калуга,Kaluga Oblast,Central
+Chita,Chita,Чита,Zabaykalsky Krai,Far East
+Grozny,Grozny,Грозный,Chechenskaya Respublika,North Caucasus
+Volzhsky,Volzhsky,Волжский,Volgograd Oblast,South
+Smolensk,Smolensk,Смоленск,Smolensk Oblast,Central
+Podolsk,Podolsk,Подольск,Moscow Oblast,Central
+Saransk,Saransk,Саранск,Respublika Mordoviya,Volga
+Vologda,Vologda,Вологда,Vologda Oblast,Northwest
+Kurgan,Kurgan,Курган,Kurgan Oblast,Ural
+Cherepovets,Cherepovets,Череповец,Vologda Oblast,Northwest
+Oryol,Oryol,Орёл,Oryol Oblast,Central
+Arkhangelsk,Arkhangelsk,Архангельск,Arkhangelsk Oblast,Northwest
+Vladikavkaz,Vladikavkaz,Владикавказ,North Ossetia-Alania,North Caucasus
+Nizhnevartovsk,Nizhnevartovsk,Нижневартовск,Khanty-Mansiyskiy Avtonomnyy Okrug-Yugra,Ural
+Yoshkar-Ola,Yoshkar-Ola,Йошкар-Ола,Respublika Mariy-El,Volga
+Sterlitamak,Sterlitamak,Стерлитамак,Bashkortostan,Volga
+Murmansk,Murmansk,Мурманск,Murmansk Oblast,Northwest
+Kostroma,Kostroma,Кострома,Kostroma Oblast,Central
+Novorossiysk,Novorossiysk,Новороссийск,Krasnodarskiy Kray,South
+Tambov,Tambov,Тамбов,Tambov Oblast,Central
+Khimki,Khimki,Химки,Moscow Oblast,Central
+Mytishchi,Mytishchi,Мытищи,Moscow Oblast,Central
+Nalchik,Nalchik,Нальчик,Kabardino-Balkarskaya Respublika,North Caucasus
+Taganrog,Taganrog,Таганрог,Rostov Oblast,South
+Nizhnekamsk,Nizhnekamsk,Нижнекамск,Tatarstan,Volga
+Blagoveshchensk,Blagoveshchensk,Благовещенск,Amur Oblast,Far East
+Gorlovka,Gorlovka,Горловка,Donetsk People's Republic,South
+Komsomolsk-on-Amur,Komsomolsk-on-Amur,Комсомольск-на-Амуре,Khabarovskiy Kray,Far East
+Petrozavodsk,Petrozavodsk,Петрозаводск,Respublika Kareliya,Northwest
+Korolyov,Korolyov,Королёв,Moscow Oblast,Central
+Shakhty,Shakhty,Шахты,Rostov Oblast,South
+Engels,Engels,Энгельс,Saratovskaya Oblast,Volga
+Veliky Novgorod,Veliky Novgorod,Великий Новгород,Novgorod Oblast,Northwest
+Lyubertsy,Lyubertsy,Люберцы,Moscow Oblast,Central
+Bratsk,Bratsk,Братск,Irkutsk Oblast,Siberia
+Stary Oskol,Stary Oskol,Старый Оскол,Belgorod Oblast,Central
+Angarsk,Angarsk,Ангарск,Irkutsk Oblast,Siberia
+Syktyvkar,Syktyvkar,Сыктывкар,Komi,Northwest
+Dzerzhinsk,Dzerzhinsk,Дзержинск,Nizhny Novgorod Oblast,Volga
+Pskov,Pskov,Псков,Pskov Oblast,Northwest
+Orsk,Orsk,Орск,Orenburg Oblast,Volga
+Krasnogorsk,Krasnogorsk,Красногорск,Moscow Oblast,Central
+Armavir,Armavir,Армавир,Krasnodarskiy Kray,South
+Abakan,Abakan,Абакан,Respublika Khakasiya,Siberia
+Balakovo,Balakovo,Балаково,Saratovskaya Oblast,Volga
+Biysk,Biysk,Бийск,Altayskiy Kray,Siberia
+Yuzhno-Sakhalinsk,Yuzhno-Sakhalinsk,Южно-Сахалинск,Sakhalin Oblast,Far East
+Odintsovo,Odintsovo,Одинцово,Moscow Oblast,Central
+Ussuriysk,Ussuriysk,Уссурийск,Primorskiy Kray,Far East
+Prokopyevsk,Prokopyevsk,Прокопьевск,Kemerovo Oblast,Siberia
+Rybinsk,Rybinsk,Рыбинск,Yaroslavl Oblast,Central
+Norilsk,Norilsk,Норильск,Krasnoyarskiy Kray,Siberia
+Volgodonsk,Volgodonsk,Волгодонск,Rostov Oblast,South
+Syzran,Syzran,Сызрань,Samara Oblast,Volga
+Petropavlovsk-Kamchatsky,Petropavlovsk-Kamchatsky,Петропавловск-Камчатский,Kamchatka Krai,Far East
+Kamensk-Uralsky,Kamensk-Uralsky,Каменск-Уральский,Sverdlovsk Oblast,Ural
+Novocherkassk,Novocherkassk,Новочеркасск,Rostov Oblast,South
+Almetyevsk,Almetyevsk,Альметьевск,Tatarstan,Volga
+Zlatoust,Zlatoust,Златоуст,Chelyabinsk Oblast,Ural
+Severodvinsk,Severodvinsk,Северодвинск,Arkhangelsk Oblast,Northwest
+Khasavyurt,Khasavyurt,Хасавюрт,Dagestan,North Caucasus
+Kerch,Kerch,Керчь,Republic of Crimea,South
+Domodedovo,Domodedovo,Домодедово,Moscow Oblast,Central
+Melitopol,Melitopol,Мелитополь,Zaporozhye Oblast,South
+Salavat,Salavat,Салават,Bashkortostan,Volga
+Miass,Miass,Миасс,Chelyabinsk Oblast,Ural
+Kopeysk,Kopeysk,Копейск,Chelyabinsk Oblast,Ural
+Pyatigorsk,Pyatigorsk,Пятигорск,Stavropol Kray,North Caucasus
+Elektrostal,Elektrostal,Электросталь,Moscow Oblast,Central
+Maykop,Maykop,Майкоп,Respublika Adygeya,South
+Nakhodka,Nakhodka,Находка,Primorskiy Kray,Far East
+Berezniki,Berezniki,Березники,Perm Krai,Volga
+Kolomna,Kolomna,Коломна,Moscow Oblast,Central
+Shchyolkovo,Shchyolkovo,Щёлково,Moscow Oblast,Central
+Serpukhov,Serpukhov,Серпухов,Moscow Oblast,Central
+Kovrov,Kovrov,Ковров,Vladimir Oblast,Central
+Neftekamsk,Neftekamsk,Нефтекамск,Bashkortostan,Volga
+Kislovodsk,Kislovodsk,Кисловодск,Stavropol Kray,North Caucasus
+Bataysk,Bataysk,Батайск,Rostov Oblast,South
+Rubtsovsk,Rubtsovsk,Рубцовск,Altayskiy Kray,Siberia
+Obninsk,Obninsk,Обнинск,Kaluga Oblast,Central
+Kyzyl,Kyzyl,Кызыл,Respublika Tyva,Siberia
+Derbent,Derbent,Дербент,Dagestan,North Caucasus
+Nefteyugansk,Nefteyugansk,Нефтеюганск,Khanty-Mansiyskiy Avtonomnyy Okrug-Yugra,Ural
+Nazran,Nazran,Назрань,Respublika Ingushetiya,North Caucasus
+Kaspiysk,Kaspiysk,Каспийск,Dagestan,North Caucasus
+Dolgoprudny,Dolgoprudny,Долгопрудный,Moscow Oblast,Central
+Novocheboksarsk,Novocheboksarsk,Новочебоксарск,Chuvashskaya Respublika,Volga
+Novomoskovsk,Novomoskovsk,Новомосковск,Tula Oblast,Central
+Yessentuki,Yessentuki,Ессентуки,Stavropol Kray,North Caucasus
+Nevinnomyssk,Nevinnomyssk,Невинномысск,Stavropol Kray,North Caucasus
+Oktyabrsky,Oktyabrsky,Октябрьский,Bashkortostan,Volga
+Ramenskoye,Ramenskoye,Раменское,Moscow Oblast,Central
+Pervouralsk,Pervouralsk,Первоуральск,Sverdlovsk Oblast,Ural
+Mikhaylovsk,Mikhaylovsk,Михайловск,Stavropol Kray,North Caucasus
+Reutov,Reutov,Реутов,Moscow Oblast,Central
+Cherkessk,Cherkessk,Черкесск,Karachayevo-Cherkesiya,North Caucasus
+Zhukovsky,Zhukovsky,Жуковский,Moscow Oblast,Central
+Dimitrovgrad,Dimitrovgrad,Димитровград,Ulyanovsk Oblast,Volga
+Pushkino,Pushkino,Пушкино,Moscow Oblast,Central
+Artyom,Artyom,Артём,Primorskiy Kray,Far East
+Kamyshin,Kamyshin,Камышин,Volgograd Oblast,South
+Yevpatoriya,Yevpatoriya,Евпатория,Republic of Crimea,South
+Murom,Murom,Муром,Vladimir Oblast,Central
+Khanty-Mansiysk,Khanty-Mansiysk,Ханты-Мансийск,Khanty-Mansiyskiy Avtonomnyy Okrug-Yugra,Ural
+Novy Urengoy,Novy Urengoy,Новый Уренгой,Yamalo-Nenets Autonomous Okrug,Ural
+Seversk,Seversk,Северск,Tomsk Oblast,Siberia
+Berdyansk,Berdyansk,Бердянск,Zaporozhye Oblast,South
+Alchevsk,Alchevsk,Алчевск,Luhansk People's Republic,South
+Orekhovo-Zuyevo,Orekhovo-Zuyevo,Орехово-Зуево,Moscow Oblast,Central
+Arzamas,Arzamas,Арзамас,Nizhny Novgorod Oblast,Volga
+Noginsk,Noginsk,Ногинск,Moscow Oblast,Central
+Novoshakhtinsk,Novoshakhtinsk,Новошахтинск,Rostov Oblast,South
+Berdsk,Berdsk,Бердск,Novosibirsk Oblast,Siberia
+Elista,Elista,Элиста,Kalmykiya,South
+Sergiyev Posad,Sergiyev Posad,Сергиев Посад,Moscow Oblast,Central
+Vidnoye,Vidnoye,Видное,Moscow Oblast,Central
+Achinsk,Achinsk,Ачинск,Krasnoyarskiy Kray,Siberia
+Tobolsk,Tobolsk,Тобольск,Tyumen Oblast,Ural
+Noyabrsk,Noyabrsk,Ноябрьск,Yamalo-Nenets Autonomous Okrug,Ural
+Yelets,Yelets,Елец,Lipetsk Oblast,Central
+Zelenodolsk,Zelenodolsk,Зеленодольск,Tatarstan,Volga
+Severodonetsk,Severodonetsk,Северодонецк,Luhansk People's Republic,South
+Novokuybyshevsk,Novokuybyshevsk,Новокуйбышевск,Samara Oblast,Volga
+Votkinsk,Votkinsk,Воткинск,Udmurtskaya Respublika,Volga
+Zheleznogorsk,Zheleznogorsk,Железногорск,Kursk Oblast,Central
+Mezhdurechensk,Mezhdurechensk,Междуреченск,Kemerovo Oblast,Siberia
+Voskresensk,Voskresensk,Воскресенск,Moscow Oblast,Central
+Gatchina,Gatchina,Гатчина,Leningrad Oblast,Northwest
+Serov,Serov,Серов,Sverdlovsk Oblast,Ural
+Sarov,Sarov,Саров,Nizhny Novgorod Oblast,Volga
+Lisichansk,Lisichansk,Лисичанск,Luhansk People's Republic,South
+Leninsk-Kuznetsky,Leninsk-Kuznetsky,Ленинск-Кузнецкий,Kemerovo Oblast,Siberia
+Sarapul,Sarapul,Сарапул,Udmurtskaya Respublika,Volga
+Magadan,Magadan,Магадан,Magadan Oblast,Far East
+Michurinsk,Michurinsk,Мичуринск,Tambov Oblast,Central
+Solikamsk,Solikamsk,Соликамск,Perm Krai,Volga
+Murino,Murino,Мурино,Leningrad Oblast,Northwest
+Chekhov,Chekhov,Чехов,Moscow Oblast,Central
+Klin,Klin,Клин,Moscow Oblast,Central
+Buzuluk,Buzuluk,Бузулук,Orenburg Oblast,Volga
+Glazov,Glazov,Глазов,Udmurtskaya Respublika,Volga
+Kansk,Kansk,Канск,Krasnoyarskiy Kray,Siberia
+Velikiye Luki,Velikiye Luki,Великие Луки,Pskov Oblast,Northwest
+Kamensk-Shakhtinsky,Kamensk-Shakhtinsky,Каменск-Шахтинский,Rostov Oblast,South
+Gubkin,Gubkin,Губкин,Belgorod Oblast,Central
+Kiselyovsk,Kiselyovsk,Киселёвск,Kemerovo Oblast,Siberia
+Yeysk,Yeysk,Ейск,Krasnodarskiy Kray,South
+Ivanteyevka,Ivanteyevka,Ивантеевка,Moscow Oblast,Central
+Lobnya,Lobnya,Лобня,Moscow Oblast,Central
+Azov,Azov,Азов,Rostov Oblast,South
+Anapa,Anapa,Анапа,Krasnodarskiy Kray,South
+Bugulma,Bugulma,Бугульма,Tatarstan,Volga
+Gelendzhik,Gelendzhik,Геленджик,Krasnodarskiy Kray,South
+Ukhta,Ukhta,Ухта,Komi,Northwest
+Yurga,Yurga,Юрга,Kemerovo Oblast,Siberia
+Ust-Ilimsk,Ust-Ilimsk,Усть-Илимск,Irkutsk Oblast,Siberia
+Krasny Luch,Krasny Luch,Красный Луч,Luhansk People's Republic,South
+Vsevolozhsk,Vsevolozhsk,Всеволожск,Leningrad Oblast,Northwest
+Novouralsk,Novouralsk,Новоуральск,Sverdlovsk Oblast,Ural
+Kuznetsk,Kuznetsk,Кузнецк,Penza Oblast,Volga
+Bor,Bor,Бор,Nizhny Novgorod Oblast,Volga
+Kineshma,Kineshma,Кинешма,Ivanovo Oblast,Central
+Ozyorsk,Ozyorsk,Озёрск,Chelyabinsk Oblast,Ural
+Yenakiyevo,Yenakiyevo,Енакиево,Donetsk People's Republic,South
+Novotroitsk,Novotroitsk,Новотроицк,Orenburg Oblast,Volga
+Kropotkin,Kropotkin,Кропоткин,Krasnodarskiy Kray,South
+Chaykovsky,Chaykovsky,Чайковский,Perm Krai,Volga
+Chernogorsk,Chernogorsk,Черногорск,Respublika Khakasiya,Siberia
+Usolye-Sibirskoye,Usolye-Sibirskoye,Усолье-Сибирское,Irkutsk Oblast,Siberia
+Yalta,Yalta,Ялта,Republic of Crimea,South
+Dubna,Dubna,Дубна,Moscow Oblast,Central
+Balashov,Balashov,Балашов,Saratovskaya Oblast,Volga
+Yelabuga,Yelabuga,Елабуга,Tatarstan,Volga
+Stakhanov,Stakhanov,Стаханов,Luhansk People's Republic,South
+Novoaltaysk,Novoaltaysk,Новоалтайск,Altayskiy Kray,Siberia
+Vyborg,Vyborg,Выборг,Leningrad Oblast,Northwest
+Yegoryevsk,Yegoryevsk,Егорьевск,Moscow Oblast,Central
+Verkhnyaya Pyshma,Verkhnyaya Pyshma,Верхняя Пышма,Sverdlovsk Oblast,Ural
+Naro-Fominsk,Naro-Fominsk,Наро-Фоминск,Moscow Oblast,Central
+Bakhmut,Bakhmut,Бахмут,Donetsk People's Republic,South
+Mineralnye Vody,Mineralnye Vody,Минеральные Воды,Stavropol Kray,North Caucasus
+Troitsk,Troitsk,Троицк,Chelyabinsk Oblast,Ural
+Chapayevsk,Chapayevsk,Чапаевск,Samara Oblast,Volga
+Minusinsk,Minusinsk,Минусинск,Krasnoyarskiy Kray,Siberia
+Birobidzhan,Birobidzhan,Биробиджан,Yevrey (Jewish) Autonomous Oblast,Far East
+Shadrinsk,Shadrinsk,Шадринск,Kurgan Oblast,Ural
+Belovo,Belovo,Белово,Kemerovo Oblast,Siberia
+Tuymazy,Tuymazy,Туймазы,Bashkortostan,Volga
+Sertolovo,Sertolovo,Сертолово,Leningrad Oblast,Northwest
+Buynaksk,Buynaksk,Буйнакск,Dagestan,North Caucasus
+Ishim,Ishim,Ишим,Tyumen Oblast,Ural
+Kirovo-Chepetsk,Kirovo-Chepetsk,Кирово-Чепецк,Kirov Oblast,Volga
+Anzhero-Sudzhensk,Anzhero-Sudzhensk,Анжеро-Судженск,Kemerovo Oblast,Siberia
+Feodosiya,Feodosiya,Феодосия,Republic of Crimea,South
+Dmitrov,Dmitrov,Дмитров,Moscow Oblast,Central
+Sosnovy Bor,Sosnovy Bor,Сосновый Бор,Leningrad Oblast,Northwest
+Gorno-Altaysk,Gorno-Altaysk,Горно-Алтайск,Respublika Altay,Siberia
+Lytkarino,Lytkarino,Лыткарино,Moscow Oblast,Central
+Pavlovsky Posad,Pavlovsky Posad,Павловский Посад,Moscow Oblast,Central
+Beloretsk,Beloretsk,Белорецк,Bashkortostan,Volga
+Stupino,Stupino,Ступино,Moscow Oblast,Central
+Gudermes,Gudermes,Гудермес,Chechenskaya Respublika,North Caucasus
+Ishimbay,Ishimbay,Ишимбай,Bashkortostan,Volga
+Donskoy,Donskoy,Донской,Tula Oblast,Central
+Kotelniki,Kotelniki,Котельники,Moscow Oblast,Central
+Kstovo,Kstovo,Кстово,Nizhny Novgorod Oblast,Volga
+Urus-Martan,Urus-Martan,Урус-Мартан,Chechenskaya Respublika,North Caucasus
+Georgiyevsk,Georgiyevsk,Георгиевск,Stavropol Kray,North Caucasus
+Klintsy,Klintsy,Клинцы,Bryansk Oblast,Central
+Nyagan,Nyagan,Нягань,Khanty-Mansiyskiy Avtonomnyy Okrug-Yugra,Ural
+Slavyansk-na-Kubani,Slavyansk-na-Kubani,Славянск-на-Кубани,Krasnodarskiy Kray,South
+Kungur,Kungur,Кунгур,Perm Krai,Volga
+Sunzha,Sunzha,Сунжа,Respublika Ingushetiya,North Caucasus
+Tuapse,Tuapse,Туапсе,Krasnodarskiy Kray,South
+Kogalym,Kogalym,Когалым,Khanty-Mansiyskiy Avtonomnyy Okrug-Yugra,Ural
+Belogorsk,Belogorsk,Белогорск,Amur Oblast,Far East
+Leninogorsk,Leninogorsk,Лениногорск,Tatarstan,Volga
+Rossosh,Rossosh,Россошь,Voronezh Oblast,Central
+Aleksin,Aleksin,Алексин,Tula Oblast,Central
+Borisoglebsk,Borisoglebsk,Борисоглебск,Voronezh Oblast,Central
+Fryazino,Fryazino,Фрязино,Moscow Oblast,Central
+Gukovo,Gukovo,Гуково,Rostov Oblast,South
+Revda,Revda,Ревда,Sverdlovsk Oblast,Ural
+Prokhladny,Prokhladny,Прохладный,Kabardino-Balkarskaya Respublika,North Caucasus
+Beryozovsky,Beryozovsky,Берёзовский,Sverdlovsk Oblast,Ural
+Belebey,Belebey,Белебей,Bashkortostan,Volga
+Chistopol,Chistopol,Чистополь,Tatarstan,Volga
+Zarechny,Zarechny,Заречный,Penza Oblast,Volga
+Budyonnovsk,Budyonnovsk,Будённовск,Stavropol Kray,North Caucasus
+Kumertau,Kumertau,Кумертау,Bashkortostan,Volga
+Salsk,Salsk,Сальск,Rostov Oblast,South
+Dzerzhinsky,Dzerzhinsky,Дзержинский,Moscow Oblast,Central
+Labinsk,Labinsk,Лабинск,Krasnodarskiy Kray,South
+Asbest,Asbest,Асбест,Sverdlovsk Oblast,Ural
+Iskitim,Iskitim,Искитим,Novosibirsk Oblast,Siberia
+Pavlovo,Pavlovo,Павлово,Nizhny Novgorod Oblast,Volga
+Alexandrov,Alexandrov,Александров,Vladimir Oblast,Central
+Vorkuta,Vorkuta,Воркута,Komi,Northwest
+Sibay,Sibay,Сибай,Bashkortostan,Volga
+Meleuz,Meleuz,Мелеуз,Bashkortostan,Volga
+Kotlas,Kotlas,Котлас,Arkhangelsk Oblast,Northwest
+Mikhaylovka,Mikhaylovka,Михайловка,Volgograd Oblast,South
+Izberbash,Izberbash,Избербаш,Dagestan,North Caucasus
+Krasnoturyinsk,Krasnoturyinsk,Краснотурьинск,Sverdlovsk Oblast,Ural
+Belorechensk,Belorechensk,Белореченск,Krasnodarskiy Kray,South
+Rzhev,Rzhev,Ржев,Tver Oblast,Central
+Lesosibirsk,Lesosibirsk,Лесосибирск,Krasnoyarskiy Kray,Siberia
+Tikhoretsk,Tikhoretsk,Тихорецк,Krasnodarskiy Kray,South
+Tikhvin,Tikhvin,Тихвин,Leningrad Oblast,Northwest
+Rubezhnoye,Rubezhnoye,Рубежное,Luhansk People's Republic,South
+Shuya,Shuya,Шуя,Ivanovo Oblast,Central
+Polevskoy,Polevskoy,Полевской,Sverdlovsk Oblast,Ural
+Shchyokino,Shchyokino,Щёкино,Tula Oblast,Central
+Shali,Shali,Шали,Chechenskaya Respublika,North Caucasus
+Volsk,Volsk,Вольск,Saratovskaya Oblast,Volga
+Krymsk,Krymsk,Крымск,Krasnodarskiy Kray,South
+Zelenogorsk,Zelenogorsk,Зеленогорск,Krasnoyarskiy Kray,Siberia
+Liski,Liski,Лиски,Voronezh Oblast,Central
+Lysva,Lysva,Лысьва,Perm Krai,Volga
+Neryungri,Neryungri,Нерюнгри,Republic of Sakha (Yakutia),Far East
+Volzhsk,Volzhsk,Волжск,Respublika Mariy-El,Volga
+Energodar,Energodar,Энергодар,Zaporozhye Oblast,South
+Vyazma,Vyazma,Вязьма,Smolensk Oblast,Central
+Timashyovsk,Timashyovsk,Тимашёвск,Krasnodarskiy Kray,South
+Gus-Khrustalny,Gus-Khrustalny,Гусь-Хрустальный,Vladimir Oblast,Central
+Krasnokamensk,Krasnokamensk,Краснокаменск,Zabaykalsky Krai,Far East
+Kirishi,Kirishi,Кириши,Leningrad Oblast,Northwest
+Snezhinsk,Snezhinsk,Снежинск,Chelyabinsk Oblast,Ural
+Zhigulyovsk,Zhigulyovsk,Жигулёвск,Samara Oblast,Volga
