@@ -1,0 +1,39 @@
+name: Hourly Russia News Fetcher & Database Updater
+
+on:
+  schedule:
+    # Hourly, at minute 17 UTC. Minute 0 is when GitHub is busiest and runs get delayed.
+    - cron: '17 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+# Never let two runs write to the database at once
+concurrency:
+  group: update-database
+  cancel-in-progress: false
+
+jobs:
+  update-database:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run Pipeline and Update Database
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+          PYTHONUNBUFFERED: '1'
+        run: python seed.py
